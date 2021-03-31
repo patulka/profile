@@ -51,12 +51,12 @@ a {
   text-decoration: none;
   color: #e76f51;
   font-weight: bold;
-  transition-delay: 0.2s;
   font-size: 23px;
 }
 
 a:hover {
   color: #264653;
+  transition: background-color 0.2s linear;
 }
 
 .img-circle {
@@ -98,4 +98,5 @@ a:hover {
 .btn-orange:hover {
   background-color: #264653;
   color: white;
+  transition: background-color 0.2s linear;
 }
